@@ -1,0 +1,74 @@
+/* Global Styling */
+
+body {
+    margin: 0;
+}
+
+.container {
+     margin: 50px 0 100px 100px;
+}
+
+.page-header {
+   
+    padding: 100px;
+    text-align: center;
+    background-color: #f3e7e2;
+}
+
+.page-header h1 {
+    position: absolute;
+    top: 10px;
+    left: 725px;
+    color: #e1c6d9;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #f9d0be;
+    color: #f4e6cb;
+}
+/* Langing Page */
+figure {
+    text-align: center;
+}
+
+#landing-img {
+    width: 450px;
+    height: 450px;
+    border: solid white 1px;
+    border-radius: 100px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Image Gallery for About and Hobbies */
+
+#img-gallery {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+#img-gallery img {
+     width: 350px;
+     height: 350px;
+     border-radius: 25px;
+}
+
+#left-img, #center-img, #right-img {
+    
+      border-radius: 15px;
+      padding: 5px;
+}
