@@ -1,5 +1,9 @@
 /* Global Styling */
 
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -8,16 +12,24 @@ body {
      margin: 50px 0 100px 100px;
 }
 
+.container p {
+    margin-right: 3rem;
+    text-align: justify;
+}
 .page-header {
    
     padding: 50px;
     text-align: center;
-    background-color: #f3e7e2;
+    background-color: #EDC7B7;
 }
 
 .page-header h1 {
 
-    color: #e1c6d9;
+    color: #AC3B61;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3rem;
+    
 }
 
 
@@ -32,12 +44,20 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #f9d0be;
-    color: #f4e6cb;
+    background-color: #AC3B61;
+    color: #EEE2DC;
 }
 /* Langing Page */
 figure {
     text-align: center;
+}
+
+figcaption {
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+    text-align: center;
+
 }
 
 #landing-img {
@@ -75,7 +95,7 @@ h3 {
 
 
 footer {
-     background-color: #f3e7e2;
+     background-color: #EDC7B7;
      position: fixed;
      left: 0;
      bottom: 0;
